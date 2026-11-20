@@ -77,6 +77,7 @@ truncate table silver.crm_prd_info
 print '>> inserting data into: silver.crm_prd_info'
 insert into silver.crm_prd_info(
 prd_id,
+cat_id,
 prd_key,
 prd_nm,
 prd_cost,
