@@ -37,6 +37,7 @@ left join silver.erp_px_cat_g1v2 pc
 on pn.cat_id=pc.id
 where prd_end_dt is null --filter out all historical date
 
+create view gold.fact_sales as
 select
 sd.sls_ord_num as order_number,
 pr.product_key,
