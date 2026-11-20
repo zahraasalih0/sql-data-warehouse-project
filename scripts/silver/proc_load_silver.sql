@@ -14,7 +14,7 @@ Parameters:
       This stored procedure does not accept any parameters or return any values.
 
 Usage Example:
-    EXEC Silver.load_silver;
+   EXEC Silver.load_silver;
 ===============================================================================
 */
 create or alter procedure silver.load_silver as
@@ -40,7 +40,7 @@ cst_id,
 cst_key,
 cst_firstname,
 cst_lastname,
-cst_material_status,
+cst_marital_status,
 cst_gndr,
 cst_create_date
 
@@ -77,13 +77,13 @@ truncate table silver.crm_prd_info
 print '>> inserting data into: silver.crm_prd_info'
 insert into silver.crm_prd_info(
 prd_id,
-cat_id,
 prd_key,
 prd_nm,
 prd_cost,
 prd_line,
 prd_start_dt,
-prd_end_dt
+prd_end_dt,
+dwh_creat_date
 )
 
 SELECT 
