@@ -29,3 +29,11 @@ on pn.cat_id=pc.id
 where prd_end_dt is null --filter out all historical date
 )t group by prd_key 
 having count(*)>1
+
+-- foreign key integrity (dimensions)
+select * from gold.fact_sales f
+left join gold.dim_customers c
+on c.customer_key=f.customer_key
+left join gold.dim_products p
+on p.product_key = f.product_key
+where p.product_key is null
