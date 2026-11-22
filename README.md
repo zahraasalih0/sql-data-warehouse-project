@@ -115,9 +115,7 @@ This project is **not an original idea of mine**. I built it by following the tu
 
 - 🎥 **Original video:** [SQL Data Warehouse Project (full tutorial)](https://youtu.be/9GVqKuTVANE)
 - 💻 **Original repository:** [DataWithBaraa/sql-data-warehouse-project](https://github.com/DataWithBaraa/sql-data-warehouse-project)
-- 📺 **YouTube channel:** [@datawithbaraa](https://www.youtube.com/@datawithbaraa)
-- 🌐 **Website:** [datawithbaraa.com](https://www.datawithbaraa.com)
-- 🎓 **Course:** [Building a Modern Data Warehouse (Udemy)](https://www.udemy.com/course/building-a-modern-data-warehouse-data-engineering-bootcamp/)
+
 
 If you want to learn this properly, please watch the original video and support his work.
 
@@ -125,13 +123,12 @@ If you want to learn this properly, please watch the original video and support 
 
 ## 🛡️ License
 
-The original project is released under the **MIT License** by Baraa Khatib Salkini. This repository keeps that license, and the original copyright notice must be kept in the [LICENSE](LICENSE) file. You are free to use, modify, and share this work with attribution.
+The original project is released under the **MIT License**. This repository keeps that licenseة, You are free to use, modify, and share this work with attribution.
 
 ---
 
 ## 👤 About Me
 
-Hi, I'm **[Your Name]**. I'm learning data engineering and SQL, and this project is part of my learning journey.
-
-- GitHub: [your-username](https://github.com/your-username)
-- LinkedIn: [your-profile](https://www.linkedin.com/in/your-profile)
+Hi, I'm Zahraa, a data analyst. I'm curious by nature and I like to try new things, so I built this project to explore the data engineering side of the work and see how data gets from raw files to analysis-ready tables.
+- GitHub: [zahraasalih0](https://github.com/zahraasalih0)
+- LinkedIn: [Zahraa Salih](https://www.linkedin.com/in/zahraa-salih-613921376/)
